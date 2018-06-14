@@ -136,6 +136,11 @@
   max-width: 100%;
 }
 
+.imgClients {
+	width: 222px;
+	height: 100px;
+}
+
 .meta li {
   display: inline-block;
   font-size: .8rem;
@@ -211,6 +216,11 @@
   font-size: 12px;
 }
 
+.imgTeam {
+	width: 320px;
+	height: 220px;
+}
+
 .latest {
   margin-bottom: 80px;
 }
@@ -223,6 +233,10 @@
   margin-bottom: 0;
 }
 
+.latest article a img {
+	width: 320px;
+	height: 240px;
+}
 
 /* Used when elements stack in smaller viewports */
 
@@ -893,6 +907,14 @@ textarea:focus,
 .overlay {
   color: #FFFFFF;
   background-color: inherit;
+}
+
+.overlay.light {
+	background-image: url('../../images/bannerImg.png');
+}
+
+.overlay.row2 {
+	background-image:url('../../images/bell2.png');
 }
 
 .overlay::after {
