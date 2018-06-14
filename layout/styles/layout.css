@@ -151,6 +151,14 @@
   content: "";
 }
 
+.meta li a:hover {
+	color: black;
+}
+
+.textHover:hover {
+	color: black;
+}
+
 .team {
   margin-bottom: 80px;
 }
@@ -333,7 +341,6 @@
   font-weight: 700;
   cursor: pointer;
 }
-
 
 /* Footer --------------------------------------------------------------------------------------------------------------- */
 
@@ -962,8 +969,14 @@ textarea:focus,
 
 /* Top Bar */
 
+#topbar ul li a:hover {
+  color: #CF9C67;
+}
 #topbar ul li:first-child a {
   color: #CF9C67;
+}
+#topbar ul li:first-child a:hover {
+  color: white;
 }
 
 
