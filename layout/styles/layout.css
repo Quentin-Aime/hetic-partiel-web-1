@@ -1347,8 +1347,11 @@ table a,
     white-space: nowrap;
   }
   .inline li {
-    display: block;
+    display: inline-block;
     margin-bottom: 10px;
+    width: 47%;
+    align-content: center;
+    height: auto;
   }
   .pushright li {
     margin-right: 0;
